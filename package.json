@@ -4,8 +4,6 @@
   "author": "Charles Stover <reactware@charlesstover.com>",
   "description": "Reactware!",
   "homepage": "https://www.npmjs.com/package/reactware",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.mjs",
   "private": true,
   "repository": "https://github.com/CharlesStover/reactware",
   "type": "module",
@@ -18,9 +16,7 @@
     "lib": "src"
   },
   "publishConfig": {
-    "access": "restricted",
-    "main": "./dist/cjs/index.js",
-    "module": "./dist/esm/index.mjs"
+    "access": "restricted"
   },
   "scripts": {
     "build": "react-scripts build",

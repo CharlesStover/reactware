@@ -11,9 +11,9 @@ deploy:
   edge: true
   email: npmjs@charlesstover.com
   github-token:
-    secure:
+    secure: Rq2mbFnN+7XlK7wKWwf1elln1rTkEdt5fQCieOYXX10HOok5v5na/OjiJLOzQUs5F5peghET9BXTxoOeQL5dVx56I8e5RLARW8siXb+GIWm6QaeoXejm3kZPus7hW/wFJwvkIS32ypR/FhpTRe1q1k4BdO3He0GYhleuClw85T0xTZfRmZJaCU64gKC3KzIjMp76X5NVurmY6oSILskFGDwrzqmuNqGFQZWmI9J4otTmrTNXDS4Zo2IZQLFSeOovKdxdnZfLf0PZzHmrCSZYlr1cAXruNP1w/4wfDAFINC6RBrQpI4DHYMtD0eo4Eu8li8n0x3kImAg8NNs33pm0RTj8b+dc94VaUQA8b5QO4/oR1qPAe7sKyaaUDGgLVAt0FgnkcnYQItCxNpg5n3dS+Nv9Fb2xq5NmxxxXMShqdRC9lBgAu6BIQMyZmaOCUlOZudTy5S4aFnBvoskTUNNBMv3Xw0XqN7K0SxPjAPoh3LSC7ijFC+g5A0DYSAONhDc9k6QrrqGrCer4+P76VZDgWhNIij0zD4FWbhquC28ob6VKppIWOREhRePM4xtjpyv8bwUp6BheeOXNZERgPp6wTOByd2XU/dql47SbuNeMtAZDjSWZO2Wumn/hacCE+Q1yx2H+vZY0E62kHpxOE39cZmsqumu9Q7ju3S9tPEaVXcs=
   keep-history: true
-  local-dir: dist
+  local-dir: build
   on:
     branch: main
   provider: pages

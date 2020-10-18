@@ -1,7 +1,7 @@
 /.git/
 /.idea/
 /.vscode/
-/dist/
+/build/
 /jest/
 /node_modules/
 /*.iml

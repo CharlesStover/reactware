@@ -26,7 +26,6 @@
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist",
     "removeComments": true,
     "resolveJsonModule": true,
     "rootDir": "src",
@@ -43,7 +42,7 @@
   },
   "exclude": [
     "/.yarn/",
-    "/dist/",
+    "/build/",
     "/jest/",
     "/node_modules/",
     "/types/",

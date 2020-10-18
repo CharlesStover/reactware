@@ -1,5 +1,5 @@
 {
-  "exclude": ["/.yarn/", "/dist/", "/jest/", "/node_modules/"],
+  "exclude": ["/.yarn/", "/build/", "/jest/", "/node_modules/"],
   "extends": "./tsconfig.json",
   "include": [
     "**/*.cjs",
