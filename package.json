@@ -1,0 +1,59 @@
+{
+  "name": "reactware",
+  "version": "1.0.0",
+  "author": "Charles Stover <reactware@charlesstover.com>",
+  "description": "Reactware!",
+  "homepage": "https://www.npmjs.com/package/reactware",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.mjs",
+  "private": true,
+  "repository": "https://github.com/CharlesStover/reactware",
+  "type": "module",
+  "types": "./types/index.d.ts",
+  "bugs": {
+    "email": "reactware@charlesstover.com",
+    "url": "https://github.com/CharlesStover/reactware/issues"
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "main": "./dist/cjs/index.js",
+    "module": "./dist/esm/index.mjs"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "test-watch": "react-scripts test --watch",
+    "yarn-upgrade": "yarn up * && yarn up @*/*",
+    "yarn-vscode": "yarn dlx @yarnpkg/pnpify --sdk vscode"
+  },
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/react-hooks": "^3.4.2",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.10",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/testing-library__react-hooks": "^3.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-app": "^6.2.2",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "react-scripts": "^3.4.3",
+    "react-test-renderer": "^16.14.0",
+    "typescript": "^4.0.3"
+  }
+}

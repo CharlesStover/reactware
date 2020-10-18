@@ -1,0 +1,21 @@
+language: node_js
+node_js: 14
+branches:
+  only: master
+install:
+  - yarn
+script:
+  - yarn test
+  - yarn build
+deploy:
+  edge: true
+  email: npmjs@charlesstover.com
+  github-token:
+    secure:
+  keep-history: true
+  local-dir: dist
+  on:
+    branch: main
+  provider: pages
+  skip_cleanup: true
+  target-branch: gh-pages
