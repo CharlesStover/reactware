@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Charles Stover <reactware@charlesstover.com>",
   "description": "Reactware!",
-  "homepage": "https://www.npmjs.com/package/reactware",
+  "homepage": ".",
   "private": true,
   "repository": "https://github.com/CharlesStover/reactware",
   "type": "module",
